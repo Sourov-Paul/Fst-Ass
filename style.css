@@ -1,0 +1,319 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* header start */
+
+.main {
+    overflow: hidden;
+    background-color: #ec8838;
+    width: 100%;
+}
+
+.wlc_cls {
+    float: left;
+    width: 40%;
+    padding: 5px;
+    margin-left: 10%;
+}
+
+.wlc_cls span {
+    font-family: cursive;
+    font-size: 26px;
+    text-shadow: 1px 1px 1px white;
+    cursor: pointer;
+    color: #e63b2c;
+}
+
+.list_div {
+    float: right;
+    width: 50%;
+}
+
+.list_div ul li {
+    margin-right: 10px;
+    padding: 10px;
+    display: inline-block
+}
+
+.list_div ul li a {
+    padding: 20px;
+    background: #0000000a;
+    border-radius: 5px;
+    transition: all 0.5s;
+    color: white;
+}
+
+.list_div ul li a:hover {
+    background-color: #e7492c;
+    border-radius: 5px;
+    color: white
+}
+
+
+/* header end */
+
+
+/* banner start */
+
+.main_banner_side {
+    display: flex;
+}
+
+.left_side {
+    width: 50%;
+    padding-left: 92px;
+    margin-top: 10%;
+}
+
+.right_side {
+    width: 50%;
+    margin-left: 15%;
+}
+
+p.some_text {
+    font-size: 40px;
+    color: #575757;
+}
+
+section.banner {
+    height: 100vh;
+}
+
+span.fsat_txt {
+    color: red;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+p.some_text2 {
+    margin-bottom: 34px;
+    color: #969393;
+    margin-top: 20px;
+}
+
+a.order {
+    padding: 10px;
+    border-radius: 23px;
+    color: white;
+    background: linear-gradient(45deg, #ff4700, #e6322d96);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+a.order:hover {
+    background: linear-gradient(45deg, #e6322d96, #5a5654);
+}
+
+
+/* banner end */
+
+
+/* second section  start*/
+
+section.sec2 {
+    background-image: url(images/bg1.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+}
+
+.image_show {
+    width: 50%;
+}
+
+.title_food {
+    width: 50%;
+    margin-top: 7%;
+}
+
+.dresc {
+    padding: 10px 0px;
+}
+
+span.about_me {
+    font-size: 26px;
+    font-family: monospace;
+}
+
+.my_self {
+    width: 80%;
+}
+
+p.some_text_for_me {
+    margin-bottom: 20px;
+}
+
+a.link {
+    padding: 10px;
+    background: linear-gradient(45deg, #ff4700, #ff9241);
+    border-radius: 19px;
+    color: wheat;
+    font-family: cursive;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+a.link:hover {
+    background: linear-gradient(45deg, #ff9241, #ff4700);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.image_show {
+    padding-left: 13%;
+    margin-top: 50px;
+}
+
+p.some_text_for_me {
+    font-family: cursive;
+    color: #585858;
+    margin: 17px 3px 39px 0px;
+    text-shadow: 13px 13px 5px #0000009e;
+}
+
+.image_show img {
+    width: 50%;
+}
+
+
+/* second section end */
+
+
+/* title div start */
+
+.extra {
+    text-align: center;
+}
+
+.center_div h2 {
+    margin-top: 20px;
+    color: gray;
+    font-family: serif;
+}
+
+.txt {
+    color: #464343;
+    font-family: fangsong;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+
+/* title div end */
+
+
+/* food revew site start*/
+
+section.food_revew_list {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.fst_imgg img {
+    width: 100%;
+}
+
+.one_all {
+    padding: 20px;
+    box-shadow: 0px 8px 17px #000000ad;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    float: left;
+    margin-left: 114px;
+    cursor: pointer;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.one_all {
+    height: fit-content;
+}
+
+p.fd_title {
+    margin-top: 20px;
+    font-family: cursive;
+}
+
+.two_food {
+    margin-top: 21px;
+}
+
+section.food_revew_list {
+    overflow: hidden;
+}
+
+
+/* food revew site end */
+
+
+/* extra start */
+
+.akas {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    background: white;
+    width: 75%;
+    border-radius: 6px;
+    height: 114px;
+    padding-top: 45px;
+    box-shadow: 0px 0px 18px grey;
+}
+
+.akas span {
+    padding-right: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold
+}
+
+
+/* extra end */
+
+
+/* footer */
+
+footer {
+    margin-top: 35px;
+    height: 170px;
+    background-color: #0a0d17;
+}
+
+.sdjkas {
+    text-align: center;
+    padding-top: 43px;
+    color: wheat;
+    line-height: 28px;
+}
+
+p.fns {
+    font-size: 25px;
+}
+
+span.aads {
+    color: #ffc800;
+    font-size: 25px;
+    font-family: fangsong;
+}
+
+
+/* footer */
